@@ -70,5 +70,20 @@ var bolme=a/b
 var mod=b%a
 // a+=6 y-=3
 
+//TÜR DÖNÜŞÜMÜ
+//Int(), Float(), Double(), String()
+
+//Sayısaldan sayısala
+var sayi11:Int = 42
+var sayi22:Double = 42.34
+var sayi33:Float = 42.89
+
+var sonuc11:Int = Int(sayi22)
+var sonuc22:Double = Double(sayi11)
+var sonuc33:Int=Int(sayi33)
+
+print("Doubledan  inte dönüşüm : \(sonuc11)")
+print("Inten double dönüşüm : \(sonuc22)")
+print("Floatdan inte dönüşüm : \(sonuc33)")
 
 
