@@ -86,4 +86,21 @@ print("Doubledan  inte dönüşüm : \(sonuc11)")
 print("Inten double dönüşüm : \(sonuc22)")
 print("Floatdan inte dönüşüm : \(sonuc33)")
 
+//TUPLES
+//Swift dilinde, çoklu değişken gibidir.
+//Birden farklı farklı veri tipinde verileri içerisinde barındırır.
+var tupleO=("Dilber","Ateş")
+var name=tupleO.0
+var surname=tupleO.1
+
+var kordinat=(x:30,y:60)
+var x=kordinat.x
+var y=kordinat.y
+
+//İç içe tuples
+
+var icicetup:(String,(Int,Int))=("Enes",(x:0,y:3))
+var erkek=icicetup.0
+var icix=icicetup.1.0
+var iciy=icicetup.1.1
 
